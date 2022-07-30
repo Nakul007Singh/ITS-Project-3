@@ -48,7 +48,7 @@ def main():
       result=predict_note_authentication(UserID, Gender,Age,EstimatedSalary)
       st.success('Model has predicted {}'.format(result))
     if st.button("About"):
-      st.subheader("Developed by SNOOBE")
+      st.subheader("Developed by Nakul singh")
       st.subheader("Student of PGI, Department of Computer Engineering")
 
 if __name__=='__main__':
